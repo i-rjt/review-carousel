@@ -1,6 +1,7 @@
 :root{
     --mixed: rgb(23, 133, 153);
     --grey: grey;
+    --white: rgb(235, 227, 227);
 }
 
 
@@ -50,6 +51,7 @@ main{
 #descript{
     width: 90%;
     height: 80%;
+    font-size: 70%;
     text-align: justify;
     margin: 5px 0px 10px 10px;
     position: relative;
@@ -86,6 +88,10 @@ main{
 }
 
 #surprise{
-    width: 20%;
-    border-radius: 8px;
+    width: 40%;
+    height: 10%;
+    border-radius: 6px;
+    border: 0.4px solid var(--mixed);
+    cursor: pointer;
+    background-color: white;
 }
